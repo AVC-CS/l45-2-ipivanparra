@@ -6,17 +6,13 @@ def main():
     numbers = []
     total = 0
     i = 0
-    for i in range(5):
-        numbers.apped(random.randint(0,100))
-        print (numbers[i], end = ' ')
-        total += numbers[i]
+    for i in range(5):                              # Range of 5 numbers. 
+        numbers.apped(random.randint(0,100))        # Use the append function to add the numbers you obtain to the list.
+        print (numbers[i], end = ' ')               # print numbers with spacing. 
+        total += numbers[i]                         # New total is from the previous total plus the new number. 
     print(total, end='')
         
-      
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
     return numbers, total
 
 
