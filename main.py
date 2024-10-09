@@ -9,11 +9,10 @@ def main():
     for i in range(5):
         numbers.apped(random.randint(0,100))
         print (numbers[i], end = ' ')
+        total += numbers[i]
+    print(total, end='')
         
       
-
-    print(f'The random values are {numbers}')
-    print(f'The total is {total}')
 
     ########################################
     # Do not delete the return statement
